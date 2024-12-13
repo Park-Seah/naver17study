@@ -10,13 +10,6 @@ public class Ch02sec12 {
 		int totalMinute = (hour*60) +minute;
 		System.out.println("총 "+ totalMinute +"분");
 		
-		//변수는 또 다른 변수에 대입되어 메모리 간에 값을 복사할 수 있다
-		int x = 10;
-		int y = x;
-		System.out.println(y);
-		
-		
-		
 	}
 
 }

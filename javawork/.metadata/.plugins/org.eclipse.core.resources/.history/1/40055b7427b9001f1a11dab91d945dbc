@@ -9,7 +9,6 @@ public class Ch01sec11 {
 		System.out.println(x);
 		System.out.println(y);
 		System.out.println(result);
-		System.out.println("x");
 
 	}
 
