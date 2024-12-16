@@ -15,7 +15,7 @@ public class Ex6LoopExam {
 		 * charAt을 구해서 if문 쓰면 돼요
 		 */
 		
-		Scanner sc=new Scanner(System.in); 
+		Scanner sc=new Scanner(System.in);//스캐너로 
 		String str;
 		int upperCount=0,lowerCount=0,numberCount=0;
 		
@@ -24,18 +24,11 @@ public class Ex6LoopExam {
 		for(int i=0;i<str.length();i++)
 		{
 			char ch=str.charAt(i);
-//			if(ch>='A' && ch<='Z')
-//				upperCount++;
-//			else if(ch>='a' && ch<='z')
-//				lowerCount++;
-//			else if(ch>='0' && ch<='9')
-//				numberCount++;
-			
-			if(ch>=65 && ch<=90)
+			if(ch>='A' && ch<='Z')
 				upperCount++;
-			else if(ch>=97 && ch<=122)
+			else if(ch<='a' && ch<='z')
 				lowerCount++;
-			else if(ch>=48 && ch<=57)
+			else if(ch>='0' && ch<='9')
 				numberCount++;
 		}
 		
