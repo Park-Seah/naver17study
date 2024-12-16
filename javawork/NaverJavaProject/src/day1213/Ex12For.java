@@ -1,5 +1,7 @@
 package day1213;
 
+import java.util.Scanner;
+
 public class Ex12For {
 
 	public static void main(String[] args) {
@@ -10,6 +12,19 @@ public class Ex12For {
 		 * (for문 사용할 것)
 		 * 
 		 */
+		
+		
+		Scanner sc=new Scanner(System.in);
+		int n,sum=0;
+		System.out.println("숫자 n 입력");
+		n=sc.nextInt();
+		
+		for(int i=1;i<=n;i++)
+		{
+			sum+=i;
+		}
+		
+		System.out.print("1부터 "+n+"까지의 합계:"+sum);
 		
 	}
 
